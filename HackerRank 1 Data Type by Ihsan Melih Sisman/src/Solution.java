@@ -5,10 +5,11 @@ public class Solution{
 
 
         Scanner scanner = new Scanner(System.in);
-        int enteredOne = scanner.nextInt();
+        int testNumber = scanner.nextInt();
+        // It takes the test number
 
-        for (int i = 0; i<enteredOne;i++){
-
+        for (int i = 0; i<testNumber;i++){
+            // and loops it for different primitive type sizes.
             try {
                 long itTakesAll = scanner.nextLong();
                 System.out.println(itTakesAll + " can be fitted in:");
